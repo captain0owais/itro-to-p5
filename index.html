@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+
+  body{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(45deg, #FFFFFF 0%, #6284FF 25%, #ff6464 75%, #ffffff 100%);
+
+    font-family:cursive;
+  }
+
+  canvas{
+    border-style: ridge;
+  }
+
+#text_input1{
+  border-radius: 7px ;
+  color: red;
+}
+  
+  .btn-info{
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family:cursive;
+  }
+
+
+  .btn-grad {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+         
+  </style>
+</head>
+
+<body>
+  <center>
+<div class="container">
+	<h3 class="btn btn-info">Introduction to p5.js</h3>
+
+  <br><br>
+
+  <button onclick="take_snapshot()" class="btn btn-grad">Take Snapshot</button>
+</div>
+</center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
